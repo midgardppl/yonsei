@@ -8948,18 +8948,22 @@ h1, h2, h3, h4, h5,
   .product:hover .img-prod .overlay {
     opacity: 1; }
   .product .text {
+    padding-top: 10px;
     position: relative;
     width: 100%; }
-    .product .text h3 {
-      font-size: 14px;
-      margin-bottom: 5px;
+    .product .text .title { 
+      margin-bottom: 6px;
+      height: 50px;
+     }
+    .product .text .title h3 {
+      font-size: 12px;      
       font-weight: 700;
       text-transform: uppercase; }
       .product .text h3 a {
         letter-spacing: 1px;
         color: #fff; }
     .product .text p.price {
-      margin-bottom: 0;
+      margin-bottom: 12px;
       color: #fff;
       font-weight: 400; }
       .product .text p.price span.price-dc {
@@ -8970,11 +8974,11 @@ h1, h2, h3, h4, h5,
     .product .text .cat, .product .text .rating {
       width: 50%; }
     .product .text .cat span {
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: #fff; }
+      color: #000; }
     .product .text .bottom-area {
       position: absolute;
       top: -65px;
@@ -9324,7 +9328,7 @@ h1, h2, h3, h4, h5,
       width: 20%; }
     .table tbody tr td.image-prod .img {
       display: block;
-      width: 100px;
+      width: 145px;
       height: 150px;
       margin: 0 auto; }
     .table tbody tr td.product-name {
@@ -9610,10 +9614,10 @@ textarea.form-control {
   font-size: 24px;
   font-weight: 800; }
   .ftco-deal .text-deal .price .price-dc {
-    color: #000000;
+    color: red;
     text-decoration: line-through; }
   .ftco-deal .text-deal .price .price-sale {
-    color: #fff; }
+    color: #000; }
 
 .ftco-deal .text-deal .thumb-deal {
   padding: 0; }
