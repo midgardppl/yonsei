@@ -2097,8 +2097,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d; }
+  background-color: #032e83;
+  border-color: #fff; }
   .btn-secondary:hover {
     color: #fff;
     background-color: #5a6268;
@@ -8804,6 +8804,26 @@ h1, h2, h3, h4, h5,
         background: #000000;
         color: #fff; }
 
+        @media screen and (max-width: 410px) {
+          .btn.btn-black {
+            margin-bottom: 10px;
+            background: #000000;
+            border: 1px solid #000000;
+            color: #fff; }
+            .btn.btn-black:hover {
+              background: #FFAA1A;
+              border: 1px solid #FFAA1A;
+              color: #fff; }
+            .btn.btn-black.btn-outline-white {
+              border: 1px solid #000000;
+              background: transparent;
+              color: #000000; }
+              .btn.btn-black.btn-outline-white:hover {
+                border: 1px solid transparent;
+                background: #000000;
+                color: #fff; }
+        }
+
 .img-2 {
   position: relative; }
   @media (max-width: 767.98px) {
@@ -9328,9 +9348,22 @@ h1, h2, h3, h4, h5,
       width: 20%; }
     .table tbody tr td.image-prod .img {
       display: block;
-      width: 145px;
+      width: 120px;
       height: 150px;
       margin: 0 auto; }
+    .table tbody tr td.image-prod .img img {
+      width: 100%; }
+    .table tbody tr td .billing {
+      width: 85px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFAA1A;
+      height: 40px;}
+    .table tbody tr td .billing  p{
+      color: #fff;
+      margin: 0;
+    }
     .table tbody tr td.product-name {
       width: 30%; }
       .table tbody tr td.product-name h3 {
